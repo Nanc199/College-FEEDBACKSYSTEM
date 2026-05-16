@@ -2194,7 +2194,7 @@ def create_default_admin():
 
 if __name__ == '__main__':
     create_default_admin()
-    app.run(debug=True, use_reloader=False)
+    app.run(host="0.0.0.0" , port=81,debug=True, use_reloader=False)
 
 
 
